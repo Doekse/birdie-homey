@@ -1,0 +1,5 @@
+Birdie e un brand danese per il clima indoor costruito attorno a un'idea semplice: rendere visibile nella vita quotidiana una qualita dell'aria normalmente invisibile. Creato dagli amici d'infanzia Andreas Kofoed Sorensen e Hans Hoite Augustenborg, Birdie e nato come risposta pratica all'aria viziata negli ambienti chiusi ed e diventato rapidamente una missione per case, uffici e spazi di apprendimento piu sani.
+
+Al centro c'e Birdie Fresh Air Monitor, un segnale visivo amichevole che reagisce quando la qualita dell'aria cala e ti incoraggia a ventilare. Invece di aggiungere complessita, Birdie e progettato per rendere le abitudini salutari intuitive e facili da mantenere.
+
+Questa app Homey collega Birdie Pro alla tua configurazione smart home, cosi che le informazioni di Birdie possano attivare Flows insieme agli altri dispositivi. Puoi includere eventi di qualita dell'aria nei Flows, creare promemoria per aprire le finestre e mantenere il tuo clima indoor come parte di un'unica esperienza Homey connessa.

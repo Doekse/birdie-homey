@@ -1,0 +1,5 @@
+Birdie - eto datskii brend dlya klimata vnutri pomeshchenii, postroennyi na prostoi idee: sdelat nevidimoe kachestvo vozdukha vidimym v povsednevnoi zhizni. Sozdannyi druz'yami detstva Andreasom Kofoed Sorensenom i Hansom Hoite Augustenborgom, Birdie nachalsya kak prakticheskii otvet na zastoinyi vozdukh vnutri pomeshchenii i bystro stal missiei po sozdaniyu bolee zdorovykh domov, ofisov i uchebnykh prostranstv.
+
+V tsentre - Birdie Fresh Air Monitor, druzhelyubnyi vizualnyi signal, kotoryi reagiruet, kogda kachestvo vozdukha snizhaetsya, i pobuzhdaet vas provetrivat pomeshchenie. Vmesto dobavleniya slozhnosti Birdie sozdana tak, chtoby zdorovye privychki byli intuitivnymi i legkimi dlya podderzhaniya.
+
+Eto prilozhenie Homey podklyuchaet Birdie Pro k vashei konfiguratsii umnogo doma, chtoby dannye Birdie mogli zapuskat Flows vmeste s drugimi ustroistvami. Vy mozhete dobavlyat sobytiya kachestva vozdukha v Flows, sozdavat napominaniya ob otkrytii oken i derzhat klimat v pomeshchenii kak chast edinogo, svyazannogo opyta Homey.

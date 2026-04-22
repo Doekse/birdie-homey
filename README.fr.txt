@@ -1,0 +1,5 @@
+Birdie est une marque danoise de climat interieur construite autour d'une idee simple : rendre visible au quotidien une qualite de l'air normalement invisible. Creee par les amis d'enfance Andreas Kofoed Sorensen et Hans Hoite Augustenborg, Birdie a commence comme une reponse pratique a l'air confine en interieur avant de devenir une mission pour des maisons, bureaux et lieux d'apprentissage plus sains.
+
+Au centre se trouve Birdie Fresh Air Monitor, un repere visuel convivial qui reagit lorsque la qualite de l'air baisse et vous encourage a ventiler. Au lieu d'ajouter de la complexite, Birdie est concu pour rendre les routines saines intuitives et faciles a conserver.
+
+Cette application Homey connecte Birdie Pro a votre maison connectee, afin que les informations de Birdie puissent declencher des Flows avec vos autres appareils. Vous pouvez integrer les evenements de qualite de l'air dans les Flows, creer des rappels pour ouvrir les fenetres et garder votre climat interieur dans une experience Homey unique et connectee.

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "co2_threshold",
+    "type": "number",
+    "label": {
+      "en": "CO₂ Threshold (ppm)",
+      "nl": "CO₂-drempel (ppm)",
+      "de": "CO₂-Schwelle (ppm)",
+      "fr": "Seuil CO₂ (ppm)",
+      "it": "Soglia CO₂ (ppm)",
+      "sv": "CO₂-tröskel (ppm)",
+      "no": "CO₂-terskel (ppm)",
+      "es": "Umbral de CO₂ (ppm)",
+      "da": "CO₂-tærskel (ppm)",
+      "ru": "Порог CO₂ (ppm)",
+      "pl": "Próg CO₂ (ppm)",
+      "ko": "CO₂ 임계값 (ppm)",
+      "ar": "حد CO₂ ‏(ppm)"
+    },
+    "hint": {
+      "en": "Set the CO₂ level where Birdie starts treating the air as poor.",
+      "nl": "Stel het CO₂-niveau in waarbij Birdie de lucht als slecht beschouwd.",
+      "de": "Legen Sie den CO₂-Wert fest, ab dem Birdie die Luft als schlecht einstuft.",
+      "fr": "Définissez le niveau de CO₂ à partir duquel Birdie considère l'air comme mauvais.",
+      "it": "Imposta il livello di CO₂ a partire dal quale Birdie considera l'aria scarsa.",
+      "sv": "Ange CO₂-nivån där Birdie börjar betrakta luften som dålig.",
+      "no": "Angi CO₂-nivået der Birdie begynner å regne luften som dårlig.",
+      "es": "Define el nivel de CO₂ a partir del cual Birdie considera que el aire es deficiente.",
+      "da": "Angiv CO₂-niveauet, hvor Birdie begynder at vurdere luften som dårlig.",
+      "ru": "Установите уровень CO₂, при котором Birdie начинает считать воздух плохим.",
+      "pl": "Ustaw poziom CO₂, od którego Birdie zaczyna uznawać powietrze za złe.",
+      "ko": "Birdie가 공기 질을 나쁨으로 판단하기 시작하는 CO₂ 수준을 설정하세요.",
+      "ar": "حدد مستوى CO₂ الذي عنده يبدأ Birdie باعتبار جودة الهواء سيئة."
+    },
+    "value": 1000,
+    "min": 0,
+    "max": 65535,
+    "step": 1
+  },
+  {
+    "id": "cool_down_period",
+    "type": "number",
+    "label": {
+      "en": "Cool Down Period (minutes)",
+      "nl": "Afkoelperiode (minuten)",
+      "de": "Abkühlzeit (Minuten)",
+      "fr": "Période de refroidissement (minutes)",
+      "it": "Periodo di raffreddamento (minuti)",
+      "sv": "Nedkylningsperiod (minuter)",
+      "no": "Nedkjølingsperiode (minutter)",
+      "es": "Período de enfriamiento (minutos)",
+      "da": "Nedkølingsperiode (minutter)",
+      "ru": "Период охлаждения (минуты)",
+      "pl": "Okres wyciszenia (minuty)",
+      "ko": "쿨다운 시간(분)",
+      "ar": "فترة التهدئة (بالدقائق)"
+    },
+    "hint": {
+      "en": "Set how many minutes Birdie waits before it changes states again.",
+      "nl": "Stel in hoeveel minuten Birdie wacht voordat het opnieuw van status verandert.",
+      "de": "Legen Sie fest, wie viele Minuten Birdie wartet, bevor es den Status erneut ändern kann.",
+      "fr": "Définissez le nombre de minutes pendant lesquelles Birdie attend avant de changer à nouveau d'état.",
+      "it": "Imposta quanti minuti Birdie attende prima di poter cambiare di nuovo stato.",
+      "sv": "Ange hur många minuter Birdie väntar innan den kan byta läge igen.",
+      "no": "Angi hvor mange minutter Birdie venter før den kan endre status igjen.",
+      "es": "Define cuántos minutos espera Birdie antes de volver a cambiar de estado.",
+      "da": "Angiv hvor mange minutter Birdie venter, før den kan skifte status igen.",
+      "ru": "Установите, сколько минут Birdie ждёт перед следующим изменением состояния.",
+      "pl": "Ustaw, ile minut Birdie czeka, zanim ponownie zmieni stan.",
+      "ko": "Birdie가 상태를 다시 변경하기 전에 대기할 시간을 분 단위로 설정하세요.",
+      "ar": "حدد عدد الدقائق التي ينتظرها Birdie قبل تغيير الحالة مرة أخرى."
+    },
+    "value": 5,
+    "min": 0,
+    "max": 255,
+    "step": 1
+  }
+]
