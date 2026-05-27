@@ -1,5 +1,16 @@
 {
   "errors": {
     "birdie_pro_connect_failed": "Verbindung zu deinem Birdie Pro nicht möglich. Ist es weggeflogen?"
+  },
+  "mold_risk": {
+    "calculating": "Berechnung…",
+    "low": "Geringes Risiko",
+    "moderate": "Mäßiges Risiko",
+    "high": "Hohes Risiko",
+    "very_high": "Sehr hohes Risiko",
+    "notification": {
+      "initializing": "Birdie Pro berechnet das Schimmelrisiko, dies dauert 14 Tage.\n\nDas Schimmelrisiko wird anhand von Temperatur, Luftfeuchtigkeit und CO₂-Wert berechnet. Dies ist nur eine Schätzung und keine Garantie. Wenden Sie sich an einen Fachmann, wenn Sie Schimmel vermuten 🍄",
+      "initialized": "Birdie Pro hat das Schimmelrisiko berechnet. Sie können es jetzt auf dem Gerät einsehen 🍄"
+    }
   }
 }

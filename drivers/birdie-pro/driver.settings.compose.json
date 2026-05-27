@@ -74,5 +74,96 @@
     "min": 0,
     "max": 255,
     "step": 1
+  },
+  {
+    "id": "mold_risk_threshold",
+    "type": "dropdown",
+    "label": {
+      "en": "Mold Risk Threshold (Level)",
+      "nl": "Schimmelrisico-drempel (niveau)",
+      "de": "Schimmelrisiko-Schwelle (Stufe)",
+      "fr": "Seuil de risque de moisissure (niveau)",
+      "it": "Soglia rischio muffa (livello)",
+      "sv": "Tröskel för mögelrisk (nivå)",
+      "no": "Mugg risiko-terskel (nivå)",
+      "es": "Umbral de riesgo de moho (nivel)",
+      "da": "Skimmelrisiko-tærskel (niveau)",
+      "ru": "Порог риска плесени (уровень)",
+      "pl": "Próg ryzyka pleśni (poziom)",
+      "ko": "곰팡이 위험 임계값(수준)",
+      "ar": "حد مخاطر العفن (المستوى)"
+    },
+    "hint": {
+      "en": "Set the mold risk level to where you want the mold risk alarm to trigger.",
+      "nl": "Stel het schimmelrisiconiveau in op het punt waarop je het schimmelrisico-alarm wilt laten afgaan.",
+      "de": "Legen Sie die Schimmelrisikostufe auf den Wert fest, bei dem der Schimmelrisiko-Alarm auslösen soll.",
+      "fr": "Définissez le niveau de risque de moisissure auquel vous souhaitez que l'alarme se déclenche.",
+      "it": "Imposta il livello di rischio muffa al punto in cui vuoi che scatti l'allarme rischio muffa.",
+      "sv": "Ange mögelrisknivån där du vill att mögelrisklarmet ska utlösas.",
+      "no": "Angi mugg risiko-nivået der du vil at mugg risiko-alarmen skal utløses.",
+      "es": "Define el nivel de riesgo de moho en el que quieres que se active la alarma de riesgo de moho.",
+      "da": "Angiv skimmelrisikoniveauet, hvor du vil have, at skimmelrisiko-alarmen skal udløses.",
+      "ru": "Установите уровень риска плесени, при котором должен срабатывать сигнал риска плесени.",
+      "pl": "Ustaw poziom ryzyka pleśni, przy którym ma się włączać alarm ryzyka pleśni.",
+      "ko": "곰팡이 위험 알람이 울리기를 원하는 곰팡이 위험 수준을 설정하세요.",
+      "ar": "حدد مستوى مخاطر العفن الذي تريد عنده تفعيل إنذار مخاطر العفن."
+    },
+    "value": "high",
+    "values": [
+      {
+        "id": "moderate",
+        "label": {
+          "en": "Moderate risk",
+          "nl": "Matig risico",
+          "de": "Mäßiges Risiko",
+          "fr": "Risque modéré",
+          "it": "Rischio moderato",
+          "sv": "Måttlig risk",
+          "no": "Moderat risiko",
+          "es": "Riesgo moderado",
+          "da": "Moderat risiko",
+          "ru": "Умеренный риск",
+          "pl": "Umiarkowane ryzyko",
+          "ko": "보통 위험",
+          "ar": "خطر متوسط"
+        }
+      },
+      {
+        "id": "high",
+        "label": {
+          "en": "High risk",
+          "nl": "Hoog risico",
+          "de": "Hohes Risiko",
+          "fr": "Risque élevé",
+          "it": "Rischio alto",
+          "sv": "Hög risk",
+          "no": "Høy risiko",
+          "es": "Riesgo alto",
+          "da": "Høj risiko",
+          "ru": "Высокий риск",
+          "pl": "Wysokie ryzyko",
+          "ko": "높은 위험",
+          "ar": "خطر مرتفع"
+        }
+      },
+      {
+        "id": "very_high",
+        "label": {
+          "en": "Very high risk",
+          "nl": "Zeer hoog risico",
+          "de": "Sehr hohes Risiko",
+          "fr": "Risque très élevé",
+          "it": "Rischio molto alto",
+          "sv": "Mycket hög risk",
+          "no": "Svært høy risiko",
+          "es": "Riesgo muy alto",
+          "da": "Meget høj risiko",
+          "ru": "Очень высокий риск",
+          "pl": "Bardzo wysokie ryzyko",
+          "ko": "매우 높은 위험",
+          "ar": "خطر مرتفع جدًا"
+        }
+      }
+    ]
   }
 ]

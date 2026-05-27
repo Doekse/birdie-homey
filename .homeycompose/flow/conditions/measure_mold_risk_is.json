@@ -1,0 +1,133 @@
+{
+  "id": "measure_mold_risk_is",
+  "title": {
+    "en": "The mold risk !{{is|is not}} [[band]]",
+    "nl": "Het schimmelrisico !{{is|is niet}} [[band]]",
+    "de": "Das Schimmelrisiko !{{ist|ist nicht}} [[band]]",
+    "fr": "Le risque de moisissure !{{est|n'est pas}} [[band]]",
+    "it": "Il rischio di muffa !{{è|non è}} [[band]]",
+    "sv": "Mögelrisken !{{är|är inte}} [[band]]",
+    "no": "Moldrisikoen !{{er|er ikke}} [[band]]",
+    "es": "El riesgo de moho !{{es|no es}} [[band]]",
+    "da": "Skimmelrisikoen !{{er|er ikke}} [[band]]",
+    "ru": "Риск плесени !{{не является|является}} [[band]]",
+    "pl": "Ryzyko pleśni !{{jest|nie jest}} [[band]]",
+    "ko": "곰팡이 위험이 [[band]] !{{가 아닙니다|입니다}}",
+    "ar": "مخاطر العفن !{{ليست|}} [[band]]"
+  },
+  "titleFormatted": {
+    "en": "The mold risk !{{is|is not}} [[band]]",
+    "nl": "Het schimmelrisico !{{is|is niet}} [[band]]",
+    "de": "Das Schimmelrisiko !{{ist|ist nicht}} [[band]]",
+    "fr": "Le risque de moisissure !{{est|n'est pas}} [[band]]",
+    "it": "Il rischio di muffa !{{è|non è}} [[band]]",
+    "sv": "Mögelrisken !{{är|är inte}} [[band]]",
+    "no": "Moldrisikoen !{{er|er ikke}} [[band]]",
+    "es": "El riesgo de moho !{{es|no es}} [[band]]",
+    "da": "Skimmelrisikoen !{{er|er ikke}} [[band]]",
+    "ru": "Риск плесени !{{не является|является}} [[band]]",
+    "pl": "Ryzyko pleśni !{{jest|nie jest}} [[band]]",
+    "ko": "곰팡이 위험이 [[band]] !{{가 아닙니다|입니다}}",
+    "ar": "مخاطر العفن !{{ليست|}} [[band]]"
+  },
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=birdie-pro&capabilities=measure_mold_risk"
+    },
+    {
+      "type": "dropdown",
+      "name": "band",
+      "title": {
+        "en": "Risk level",
+        "nl": "Risiconiveau",
+        "de": "Risikoniveau",
+        "fr": "Niveau de risque",
+        "it": "Livello di rischio",
+        "sv": "Risknivå",
+        "no": "Risikonivå",
+        "es": "Nivel de riesgo",
+        "da": "Risikoniveau",
+        "ru": "Уровень риска",
+        "pl": "Poziom ryzyka",
+        "ko": "위험 수준",
+        "ar": "مستوى الخطر"
+      },
+      "values": [
+        {
+          "id": "low",
+          "label": {
+            "en": "Low Risk",
+            "nl": "Laag risico",
+            "de": "Geringes Risiko",
+            "fr": "Risque faible",
+            "it": "Rischio basso",
+            "sv": "Låg risk",
+            "no": "Lav risiko",
+            "es": "Riesgo bajo",
+            "da": "Lav risiko",
+            "ru": "Низкий риск",
+            "pl": "Niskie ryzyko",
+            "ko": "낮은 위험",
+            "ar": "خطر منخفض"
+          }
+        },
+        {
+          "id": "moderate",
+          "label": {
+            "en": "Moderate Risk",
+            "nl": "Matig risico",
+            "de": "Mäßiges Risiko",
+            "fr": "Risque modéré",
+            "it": "Rischio moderato",
+            "sv": "Måttlig risk",
+            "no": "Moderat risiko",
+            "es": "Riesgo moderado",
+            "da": "Moderat risiko",
+            "ru": "Умеренный риск",
+            "pl": "Umiarkowane ryzyko",
+            "ko": "보통 위험",
+            "ar": "خطر متوسط"
+          }
+        },
+        {
+          "id": "high",
+          "label": {
+            "en": "High Risk",
+            "nl": "Hoog risico",
+            "de": "Hohes Risiko",
+            "fr": "Risque élevé",
+            "it": "Rischio alto",
+            "sv": "Hög risk",
+            "no": "Høy risiko",
+            "es": "Riesgo alto",
+            "da": "Høj risiko",
+            "ru": "Высокий риск",
+            "pl": "Wysokie ryzyko",
+            "ko": "높은 위험",
+            "ar": "خطر مرتفع"
+          }
+        },
+        {
+          "id": "very_high",
+          "label": {
+            "en": "Very High Risk",
+            "nl": "Zeer hoog risico",
+            "de": "Sehr hohes Risiko",
+            "fr": "Risque très élevé",
+            "it": "Rischio molto alto",
+            "sv": "Mycket hög risk",
+            "no": "Svært høy risiko",
+            "es": "Riesgo muy alto",
+            "da": "Meget høj risiko",
+            "ru": "Очень высокий риск",
+            "pl": "Bardzo wysokie ryzyko",
+            "ko": "매우 높은 위험",
+            "ar": "خطر مرتفع جدًا"
+          }
+        }
+      ]
+    }
+  ]
+}

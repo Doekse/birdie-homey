@@ -1,0 +1,40 @@
+{
+  "id": "alarm_mold_risk",
+  "title": {
+    "en": "The mold risk alarm !{{is on|is off}}",
+    "nl": "Het schimmelrisico alarm !{{staat aan|staat uit}}",
+    "de": "Der Schimmelrisiko Alarm !{{ist ein|ist aus}}",
+    "fr": "L'alarme risque de moisissure !{{est activée|est désactivée}}",
+    "it": "L'allarme rischio muffa !{{è attivo|è disattivo}}",
+    "sv": "Mögelrisklarmet !{{är på|är av}}",
+    "no": "Mugg risiko-alarmen !{{er på|er av}}",
+    "es": "La alarma de riesgo de moho !{{está activada|está desactivada}}",
+    "da": "Skimmelrisiko-alarmen !{{er tændt|er slukket}}",
+    "ru": "Сигнал риска плесени !{{включён|выключен}}",
+    "pl": "Alarm ryzyka pleśni !{{jest włączony|jest wyłączony}}",
+    "ko": "곰팡이 위험 알람이 !{{켜져 있음|꺼져 있음}}",
+    "ar": "إنذار مخاطر العفن !{{مُشغّل|مُوقَف}}"
+  },
+  "titleFormatted": {
+    "en": "The mold risk alarm !{{is on|is off}}",
+    "nl": "Het schimmelrisico alarm !{{staat aan|staat uit}}",
+    "de": "Der Schimmelrisiko Alarm !{{ist ein|ist aus}}",
+    "fr": "L'alarme risque de moisissure !{{est activée|est désactivée}}",
+    "it": "L'allarme rischio muffa !{{è attivo|è disattivo}}",
+    "sv": "Mögelrisklarmet !{{är på|är av}}",
+    "no": "Mugg risiko-alarmen !{{er på|er av}}",
+    "es": "La alarma de riesgo de moho !{{está activada|está desactivada}}",
+    "da": "Skimmelrisiko-alarmen !{{er tændt|er slukket}}",
+    "ru": "Сигнал риска плесени !{{включён|выключен}}",
+    "pl": "Alarm ryzyka pleśni !{{jest włączony|jest wyłączony}}",
+    "ko": "곰팡이 위험 알람이 !{{켜져 있음|꺼져 있음}}",
+    "ar": "إنذار مخاطر العفن !{{مُشغّل|مُوقَف}}"
+  },
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=birdie-pro&capabilities=alarm_mold_risk"
+    }
+  ]
+}

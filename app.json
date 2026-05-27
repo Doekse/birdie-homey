@@ -30,6 +30,448 @@
     "email": "abe.haverkamp+birdie@homey.app"
   },
   "support": "mailto:abe.haverkamp+birdie@homey.app",
+  "flow": {
+    "triggers": [
+      {
+        "id": "alarm_mold_risk_false",
+        "title": {
+          "en": "The mold risk alarm turned off",
+          "nl": "Het schimmelrisico alarm ging uit",
+          "de": "Der Schimmelrisiko Alarm wurde ausgeschaltet",
+          "fr": "L'alarme risque de moisissure s'est désactivée",
+          "it": "L'allarme rischio muffa si è disattivato",
+          "sv": "Mögelrisklarmet inaktiverades",
+          "no": "Mugg risiko-alarmen ble slått av",
+          "es": "La alarma de riesgo de moho se desactivó",
+          "da": "Skimmelrisiko-alarmen blev slukket",
+          "ru": "Сигнал риска плесени выключился",
+          "pl": "Alarm ryzyka pleśni został wyłączony",
+          "ko": "곰팡이 위험 알람이 꺼짐",
+          "ar": "تم إيقاف إنذار مخاطر العفن"
+        },
+        "titleFormatted": {
+          "en": "The mold risk alarm turned off",
+          "nl": "Het schimmelrisico alarm ging uit",
+          "de": "Der Schimmelrisiko Alarm wurde ausgeschaltet",
+          "fr": "L'alarme risque de moisissure s'est désactivée",
+          "it": "L'allarme rischio muffa si è disattivato",
+          "sv": "Mögelrisklarmet inaktiverades",
+          "no": "Mugg risiko-alarmen ble slått av",
+          "es": "La alarma de riesgo de moho se desactivó",
+          "da": "Skimmelrisiko-alarmen blev slukket",
+          "ru": "Сигнал риска плесени выключился",
+          "pl": "Alarm ryzyka pleśni został wyłączony",
+          "ko": "곰팡이 위험 알람이 꺼짐",
+          "ar": "تم إيقاف إنذار مخاطر العفن"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=birdie-pro&capabilities=alarm_mold_risk"
+          }
+        ]
+      },
+      {
+        "id": "alarm_mold_risk_true",
+        "title": {
+          "en": "The mold risk alarm turned on",
+          "nl": "Het schimmelrisico alarm ging aan",
+          "de": "Der Schimmelrisiko Alarm wurde eingeschaltet",
+          "fr": "L'alarme risque de moisissure s'est activée",
+          "it": "L'allarme rischio muffa si è attivato",
+          "sv": "Mögelrisklarmet aktiverades",
+          "no": "Mugg risiko-alarmen ble slått på",
+          "es": "La alarma de riesgo de moho se activó",
+          "da": "Skimmelrisiko-alarmen blev tændt",
+          "ru": "Сигнал риска плесени включился",
+          "pl": "Alarm ryzyka pleśni został włączony",
+          "ko": "곰팡이 위험 알람이 켜짐",
+          "ar": "تم تشغيل إنذار مخاطر العفن"
+        },
+        "titleFormatted": {
+          "en": "The mold risk alarm turned on",
+          "nl": "Het schimmelrisico alarm ging aan",
+          "de": "Der Schimmelrisiko Alarm wurde eingeschaltet",
+          "fr": "L'alarme risque de moisissure s'est activée",
+          "it": "L'allarme rischio muffa si è attivato",
+          "sv": "Mögelrisklarmet aktiverades",
+          "no": "Mugg risiko-alarmen ble slått på",
+          "es": "La alarma de riesgo de moho se activó",
+          "da": "Skimmelrisiko-alarmen blev tændt",
+          "ru": "Сигнал риска плесени включился",
+          "pl": "Alarm ryzyka pleśni został włączony",
+          "ko": "곰팡이 위험 알람이 켜짐",
+          "ar": "تم تشغيل إنذار مخاطر العفن"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=birdie-pro&capabilities=alarm_mold_risk"
+          }
+        ]
+      },
+      {
+        "id": "measure_mold_risk_changed",
+        "title": {
+          "en": "The mold risk changed",
+          "nl": "Het schimmelrisico is veranderd",
+          "de": "Das Schimmelrisiko hat sich geändert",
+          "fr": "Le risque de moisissure a changé",
+          "it": "Il rischio di muffa è cambiato",
+          "sv": "Mögelrisken har ändrats",
+          "no": "Moldrisikoen har endret seg",
+          "es": "El riesgo de moho ha cambiado",
+          "da": "Skimmelrisikoen er ændret",
+          "ru": "Риск плесени изменился",
+          "pl": "Ryzyko pleśni uległo zmianie",
+          "ko": "곰팡이 위험이 변경됨",
+          "ar": "تغيّرت مخاطر العفن"
+        },
+        "titleFormatted": {
+          "en": "The mold risk changed",
+          "nl": "Het schimmelrisico is veranderd",
+          "de": "Das Schimmelrisiko hat sich geändert",
+          "fr": "Le risque de moisissure a changé",
+          "it": "Il rischio di muffa è cambiato",
+          "sv": "Mögelrisken har ändrats",
+          "no": "Moldrisikoen har endret seg",
+          "es": "El riesgo de moho ha cambiado",
+          "da": "Skimmelrisikoen er ændret",
+          "ru": "Риск плесени изменился",
+          "pl": "Ryzyko pleśni uległo zmianie",
+          "ko": "곰팡이 위험이 변경됨",
+          "ar": "تغيّرت مخاطر العفن"
+        },
+        "tokens": [
+          {
+            "name": "measure_mold_risk",
+            "type": "string",
+            "title": {
+              "en": "Current risk level",
+              "nl": "Huidig risiconiveau",
+              "de": "Aktuelles Risikoniveau",
+              "fr": "Niveau de risque actuel",
+              "it": "Livello di rischio attuale",
+              "sv": "Aktuell risknivå",
+              "no": "Gjeldende risikonivå",
+              "es": "Nivel de riesgo actual",
+              "da": "Aktuelt risikoniveau",
+              "ru": "Текущий уровень риска",
+              "pl": "Aktualny poziom ryzyka",
+              "ko": "현재 위험 수준",
+              "ar": "مستوى الخطر الحالي"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=birdie-pro&capabilities=measure_mold_risk"
+          }
+        ]
+      },
+      {
+        "id": "measure_mold_risk_decreased",
+        "title": {
+          "en": "The mold risk decreased",
+          "nl": "Het schimmelrisico is afgenomen",
+          "de": "Das Schimmelrisiko ist gesunken",
+          "fr": "Le risque de moisissure a diminué",
+          "it": "Il rischio di muffa è diminuito",
+          "sv": "Mögelrisken har minskat",
+          "no": "Moldrisikoen har sunket",
+          "es": "El riesgo de moho ha disminuido",
+          "da": "Skimmelrisikoen er faldet",
+          "ru": "Риск плесени снизился",
+          "pl": "Ryzyko pleśni spadło",
+          "ko": "곰팡이 위험이 감소함",
+          "ar": "انخفضت مخاطر العفن"
+        },
+        "titleFormatted": {
+          "en": "The mold risk decreased",
+          "nl": "Het schimmelrisico is afgenomen",
+          "de": "Das Schimmelrisiko ist gesunken",
+          "fr": "Le risque de moisissure a diminué",
+          "it": "Il rischio di muffa è diminuito",
+          "sv": "Mögelrisken har minskat",
+          "no": "Moldrisikoen har sunket",
+          "es": "El riesgo de moho ha disminuido",
+          "da": "Skimmelrisikoen er faldet",
+          "ru": "Риск плесени снизился",
+          "pl": "Ryzyko pleśni spadło",
+          "ko": "곰팡이 위험이 감소함",
+          "ar": "انخفضت مخاطر العفن"
+        },
+        "tokens": [
+          {
+            "name": "measure_mold_risk",
+            "type": "string",
+            "title": {
+              "en": "Current risk level",
+              "nl": "Huidig risiconiveau",
+              "de": "Aktuelles Risikoniveau",
+              "fr": "Niveau de risque actuel",
+              "it": "Livello di rischio attuale",
+              "sv": "Aktuell risknivå",
+              "no": "Gjeldende risikonivå",
+              "es": "Nivel de riesgo actual",
+              "da": "Aktuelt risikoniveau",
+              "ru": "Текущий уровень риска",
+              "pl": "Aktualny poziom ryzyka",
+              "ko": "현재 위험 수준",
+              "ar": "مستوى الخطر الحالي"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=birdie-pro&capabilities=measure_mold_risk"
+          }
+        ]
+      },
+      {
+        "id": "measure_mold_risk_increased",
+        "title": {
+          "en": "The mold risk increased",
+          "nl": "Het schimmelrisico is toegenomen",
+          "de": "Das Schimmelrisiko ist gestiegen",
+          "fr": "Le risque de moisissure a augmenté",
+          "it": "Il rischio di muffa è aumentato",
+          "sv": "Mögelrisken har ökat",
+          "no": "Moldrisikoen har økt",
+          "es": "El riesgo de moho ha aumentado",
+          "da": "Skimmelrisikoen er steget",
+          "ru": "Риск плесени повысился",
+          "pl": "Ryzyko pleśni wzrosło",
+          "ko": "곰팡이 위험이 증가함",
+          "ar": "ازدادت مخاطر العفن"
+        },
+        "titleFormatted": {
+          "en": "The mold risk increased",
+          "nl": "Het schimmelrisico is toegenomen",
+          "de": "Das Schimmelrisiko ist gestiegen",
+          "fr": "Le risque de moisissure a augmenté",
+          "it": "Il rischio di muffa è aumentato",
+          "sv": "Mögelrisken har ökat",
+          "no": "Moldrisikoen har økt",
+          "es": "El riesgo de moho ha aumentado",
+          "da": "Skimmelrisikoen er steget",
+          "ru": "Риск плесени повысился",
+          "pl": "Ryzyko pleśni wzrosło",
+          "ko": "곰팡이 위험이 증가함",
+          "ar": "ازدادت مخاطر العفن"
+        },
+        "tokens": [
+          {
+            "name": "measure_mold_risk",
+            "type": "string",
+            "title": {
+              "en": "Current risk level",
+              "nl": "Huidig risiconiveau",
+              "de": "Aktuelles Risikoniveau",
+              "fr": "Niveau de risque actuel",
+              "it": "Livello di rischio attuale",
+              "sv": "Aktuell risknivå",
+              "no": "Gjeldende risikonivå",
+              "es": "Nivel de riesgo actual",
+              "da": "Aktuelt risikoniveau",
+              "ru": "Текущий уровень риска",
+              "pl": "Aktualny poziom ryzyka",
+              "ko": "현재 위험 수준",
+              "ar": "مستوى الخطر الحالي"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=birdie-pro&capabilities=measure_mold_risk"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_mold_risk",
+        "title": {
+          "en": "The mold risk alarm !{{is on|is off}}",
+          "nl": "Het schimmelrisico alarm !{{staat aan|staat uit}}",
+          "de": "Der Schimmelrisiko Alarm !{{ist ein|ist aus}}",
+          "fr": "L'alarme risque de moisissure !{{est activée|est désactivée}}",
+          "it": "L'allarme rischio muffa !{{è attivo|è disattivo}}",
+          "sv": "Mögelrisklarmet !{{är på|är av}}",
+          "no": "Mugg risiko-alarmen !{{er på|er av}}",
+          "es": "La alarma de riesgo de moho !{{está activada|está desactivada}}",
+          "da": "Skimmelrisiko-alarmen !{{er tændt|er slukket}}",
+          "ru": "Сигнал риска плесени !{{включён|выключен}}",
+          "pl": "Alarm ryzyka pleśni !{{jest włączony|jest wyłączony}}",
+          "ko": "곰팡이 위험 알람이 !{{켜져 있음|꺼져 있음}}",
+          "ar": "إنذار مخاطر العفن !{{مُشغّل|مُوقَف}}"
+        },
+        "titleFormatted": {
+          "en": "The mold risk alarm !{{is on|is off}}",
+          "nl": "Het schimmelrisico alarm !{{staat aan|staat uit}}",
+          "de": "Der Schimmelrisiko Alarm !{{ist ein|ist aus}}",
+          "fr": "L'alarme risque de moisissure !{{est activée|est désactivée}}",
+          "it": "L'allarme rischio muffa !{{è attivo|è disattivo}}",
+          "sv": "Mögelrisklarmet !{{är på|är av}}",
+          "no": "Mugg risiko-alarmen !{{er på|er av}}",
+          "es": "La alarma de riesgo de moho !{{está activada|está desactivada}}",
+          "da": "Skimmelrisiko-alarmen !{{er tændt|er slukket}}",
+          "ru": "Сигнал риска плесени !{{включён|выключен}}",
+          "pl": "Alarm ryzyka pleśni !{{jest włączony|jest wyłączony}}",
+          "ko": "곰팡이 위험 알람이 !{{켜져 있음|꺼져 있음}}",
+          "ar": "إنذار مخاطر العفن !{{مُشغّل|مُوقَف}}"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=birdie-pro&capabilities=alarm_mold_risk"
+          }
+        ]
+      },
+      {
+        "id": "measure_mold_risk_is",
+        "title": {
+          "en": "The mold risk !{{is|is not}} [[band]]",
+          "nl": "Het schimmelrisico !{{is|is niet}} [[band]]",
+          "de": "Das Schimmelrisiko !{{ist|ist nicht}} [[band]]",
+          "fr": "Le risque de moisissure !{{est|n'est pas}} [[band]]",
+          "it": "Il rischio di muffa !{{è|non è}} [[band]]",
+          "sv": "Mögelrisken !{{är|är inte}} [[band]]",
+          "no": "Moldrisikoen !{{er|er ikke}} [[band]]",
+          "es": "El riesgo de moho !{{es|no es}} [[band]]",
+          "da": "Skimmelrisikoen !{{er|er ikke}} [[band]]",
+          "ru": "Риск плесени !{{не является|является}} [[band]]",
+          "pl": "Ryzyko pleśni !{{jest|nie jest}} [[band]]",
+          "ko": "곰팡이 위험이 [[band]] !{{가 아닙니다|입니다}}",
+          "ar": "مخاطر العفن !{{ليست|}} [[band]]"
+        },
+        "titleFormatted": {
+          "en": "The mold risk !{{is|is not}} [[band]]",
+          "nl": "Het schimmelrisico !{{is|is niet}} [[band]]",
+          "de": "Das Schimmelrisiko !{{ist|ist nicht}} [[band]]",
+          "fr": "Le risque de moisissure !{{est|n'est pas}} [[band]]",
+          "it": "Il rischio di muffa !{{è|non è}} [[band]]",
+          "sv": "Mögelrisken !{{är|är inte}} [[band]]",
+          "no": "Moldrisikoen !{{er|er ikke}} [[band]]",
+          "es": "El riesgo de moho !{{es|no es}} [[band]]",
+          "da": "Skimmelrisikoen !{{er|er ikke}} [[band]]",
+          "ru": "Риск плесени !{{не является|является}} [[band]]",
+          "pl": "Ryzyko pleśni !{{jest|nie jest}} [[band]]",
+          "ko": "곰팡이 위험이 [[band]] !{{가 아닙니다|입니다}}",
+          "ar": "مخاطر العفن !{{ليست|}} [[band]]"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=birdie-pro&capabilities=measure_mold_risk"
+          },
+          {
+            "type": "dropdown",
+            "name": "band",
+            "title": {
+              "en": "Risk level",
+              "nl": "Risiconiveau",
+              "de": "Risikoniveau",
+              "fr": "Niveau de risque",
+              "it": "Livello di rischio",
+              "sv": "Risknivå",
+              "no": "Risikonivå",
+              "es": "Nivel de riesgo",
+              "da": "Risikoniveau",
+              "ru": "Уровень риска",
+              "pl": "Poziom ryzyka",
+              "ko": "위험 수준",
+              "ar": "مستوى الخطر"
+            },
+            "values": [
+              {
+                "id": "low",
+                "label": {
+                  "en": "Low Risk",
+                  "nl": "Laag risico",
+                  "de": "Geringes Risiko",
+                  "fr": "Risque faible",
+                  "it": "Rischio basso",
+                  "sv": "Låg risk",
+                  "no": "Lav risiko",
+                  "es": "Riesgo bajo",
+                  "da": "Lav risiko",
+                  "ru": "Низкий риск",
+                  "pl": "Niskie ryzyko",
+                  "ko": "낮은 위험",
+                  "ar": "خطر منخفض"
+                }
+              },
+              {
+                "id": "moderate",
+                "label": {
+                  "en": "Moderate Risk",
+                  "nl": "Matig risico",
+                  "de": "Mäßiges Risiko",
+                  "fr": "Risque modéré",
+                  "it": "Rischio moderato",
+                  "sv": "Måttlig risk",
+                  "no": "Moderat risiko",
+                  "es": "Riesgo moderado",
+                  "da": "Moderat risiko",
+                  "ru": "Умеренный риск",
+                  "pl": "Umiarkowane ryzyko",
+                  "ko": "보통 위험",
+                  "ar": "خطر متوسط"
+                }
+              },
+              {
+                "id": "high",
+                "label": {
+                  "en": "High Risk",
+                  "nl": "Hoog risico",
+                  "de": "Hohes Risiko",
+                  "fr": "Risque élevé",
+                  "it": "Rischio alto",
+                  "sv": "Hög risk",
+                  "no": "Høy risiko",
+                  "es": "Riesgo alto",
+                  "da": "Høj risiko",
+                  "ru": "Высокий риск",
+                  "pl": "Wysokie ryzyko",
+                  "ko": "높은 위험",
+                  "ar": "خطر مرتفع"
+                }
+              },
+              {
+                "id": "very_high",
+                "label": {
+                  "en": "Very High Risk",
+                  "nl": "Zeer hoog risico",
+                  "de": "Sehr hohes Risiko",
+                  "fr": "Risque très élevé",
+                  "it": "Rischio molto alto",
+                  "sv": "Mycket hög risk",
+                  "no": "Svært høy risiko",
+                  "es": "Riesgo muy alto",
+                  "da": "Meget høj risiko",
+                  "ru": "Очень высокий риск",
+                  "pl": "Bardzo wysokie ryzyko",
+                  "ko": "매우 높은 위험",
+                  "ar": "خطر مرتفع جدًا"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "drivers": [
     {
       "name": {
@@ -41,7 +483,9 @@
         "measure_temperature",
         "measure_humidity",
         "measure_co2",
-        "alarm_co2"
+        "alarm_co2",
+        "measure_mold_risk",
+        "alarm_mold_risk"
       ],
       "platforms": [
         "local",
@@ -150,8 +594,145 @@
           "min": 0,
           "max": 255,
           "step": 1
+        },
+        {
+          "id": "mold_risk_threshold",
+          "type": "dropdown",
+          "label": {
+            "en": "Mold Risk Threshold (Level)",
+            "nl": "Schimmelrisico-drempel (niveau)",
+            "de": "Schimmelrisiko-Schwelle (Stufe)",
+            "fr": "Seuil de risque de moisissure (niveau)",
+            "it": "Soglia rischio muffa (livello)",
+            "sv": "Tröskel för mögelrisk (nivå)",
+            "no": "Mugg risiko-terskel (nivå)",
+            "es": "Umbral de riesgo de moho (nivel)",
+            "da": "Skimmelrisiko-tærskel (niveau)",
+            "ru": "Порог риска плесени (уровень)",
+            "pl": "Próg ryzyka pleśni (poziom)",
+            "ko": "곰팡이 위험 임계값(수준)",
+            "ar": "حد مخاطر العفن (المستوى)"
+          },
+          "hint": {
+            "en": "Set the mold risk level to where you want the mold risk alarm to trigger.",
+            "nl": "Stel het schimmelrisiconiveau in op het punt waarop je het schimmelrisico-alarm wilt laten afgaan.",
+            "de": "Legen Sie die Schimmelrisikostufe auf den Wert fest, bei dem der Schimmelrisiko-Alarm auslösen soll.",
+            "fr": "Définissez le niveau de risque de moisissure auquel vous souhaitez que l'alarme se déclenche.",
+            "it": "Imposta il livello di rischio muffa al punto in cui vuoi che scatti l'allarme rischio muffa.",
+            "sv": "Ange mögelrisknivån där du vill att mögelrisklarmet ska utlösas.",
+            "no": "Angi mugg risiko-nivået der du vil at mugg risiko-alarmen skal utløses.",
+            "es": "Define el nivel de riesgo de moho en el que quieres que se active la alarma de riesgo de moho.",
+            "da": "Angiv skimmelrisikoniveauet, hvor du vil have, at skimmelrisiko-alarmen skal udløses.",
+            "ru": "Установите уровень риска плесени, при котором должен срабатывать сигнал риска плесени.",
+            "pl": "Ustaw poziom ryzyka pleśni, przy którym ma się włączać alarm ryzyka pleśni.",
+            "ko": "곰팡이 위험 알람이 울리기를 원하는 곰팡이 위험 수준을 설정하세요.",
+            "ar": "حدد مستوى مخاطر العفن الذي تريد عنده تفعيل إنذار مخاطر العفن."
+          },
+          "value": "high",
+          "values": [
+            {
+              "id": "moderate",
+              "label": {
+                "en": "Moderate risk",
+                "nl": "Matig risico",
+                "de": "Mäßiges Risiko",
+                "fr": "Risque modéré",
+                "it": "Rischio moderato",
+                "sv": "Måttlig risk",
+                "no": "Moderat risiko",
+                "es": "Riesgo moderado",
+                "da": "Moderat risiko",
+                "ru": "Умеренный риск",
+                "pl": "Umiarkowane ryzyko",
+                "ko": "보통 위험",
+                "ar": "خطر متوسط"
+              }
+            },
+            {
+              "id": "high",
+              "label": {
+                "en": "High risk",
+                "nl": "Hoog risico",
+                "de": "Hohes Risiko",
+                "fr": "Risque élevé",
+                "it": "Rischio alto",
+                "sv": "Hög risk",
+                "no": "Høy risiko",
+                "es": "Riesgo alto",
+                "da": "Høj risiko",
+                "ru": "Высокий риск",
+                "pl": "Wysokie ryzyko",
+                "ko": "높은 위험",
+                "ar": "خطر مرتفع"
+              }
+            },
+            {
+              "id": "very_high",
+              "label": {
+                "en": "Very high risk",
+                "nl": "Zeer hoog risico",
+                "de": "Sehr hohes Risiko",
+                "fr": "Risque très élevé",
+                "it": "Rischio molto alto",
+                "sv": "Mycket hög risk",
+                "no": "Svært høy risiko",
+                "es": "Riesgo muy alto",
+                "da": "Meget høj risiko",
+                "ru": "Очень высокий риск",
+                "pl": "Bardzo wysokie ryzyko",
+                "ko": "매우 높은 위험",
+                "ar": "خطر مرتفع جدًا"
+              }
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "capabilities": {
+    "alarm_mold_risk": {
+      "type": "boolean",
+      "title": {
+        "en": "Mold Risk Alarm",
+        "nl": "Schimmelrisico alarm",
+        "de": "Schimmelrisiko Alarm",
+        "fr": "Alarme risque de moisissure",
+        "it": "Allarme rischio muffa",
+        "sv": "Mögelrisklarm",
+        "no": "Mugg risiko-alarm",
+        "es": "Alarma de riesgo de moho",
+        "da": "Skimmelrisiko-alarm",
+        "ru": "Сигнал риска плесени",
+        "pl": "Alarm ryzyka pleśni",
+        "ko": "곰팡이 위험 알람",
+        "ar": "إنذار مخاطر العفن"
+      },
+      "getable": true,
+      "setable": false,
+      "uiComponent": "sensor",
+      "icon": "/assets/capabilities/alarm_mold_risk.svg"
+    },
+    "measure_mold_risk": {
+      "type": "string",
+      "title": {
+        "en": "Mold Risk",
+        "nl": "Schimmelrisico",
+        "de": "Schimmelrisiko",
+        "fr": "Risque de moisissure",
+        "it": "Rischio di muffa",
+        "sv": "Mögelrisk",
+        "no": "Mugg risiko",
+        "es": "Riesgo de moho",
+        "da": "Skimmelrisiko",
+        "ru": "Риск плесени",
+        "pl": "Ryzyko pleśni",
+        "ko": "곰팡이 위험",
+        "ar": "مخاطر العفن"
+      },
+      "getable": true,
+      "setable": false,
+      "uiComponent": "sensor",
+      "icon": "/assets/capabilities/measure_mold_risk.svg"
+    }
+  }
 }

@@ -1,5 +1,16 @@
 {
   "errors": {
     "birdie_pro_connect_failed": "No se puede conectar a tu Birdie Pro. ¿Se ha ido volando?"
+  },
+  "mold_risk": {
+    "calculating": "Calculando…",
+    "low": "Riesgo bajo",
+    "moderate": "Riesgo moderado",
+    "high": "Riesgo alto",
+    "very_high": "Riesgo muy alto",
+    "notification": {
+      "initializing": "Birdie Pro está calculando el riesgo de moho, esto tarda 14 días.\n\nEl riesgo de moho se calcula según la temperatura, la humedad y el nivel de CO₂. Esto es solo una estimación y no una garantía; consulte a un profesional si sospecha de moho 🍄",
+      "initialized": "Birdie Pro ha calculado el riesgo de moho, ya puede consultarlo en el dispositivo 🍄"
+    }
   }
 }

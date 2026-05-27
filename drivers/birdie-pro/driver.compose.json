@@ -8,8 +8,9 @@
     "measure_temperature",
     "measure_humidity",
     "measure_co2",
-    "alarm_co2"
-
+    "alarm_co2",
+    "measure_mold_risk",
+    "alarm_mold_risk"
   ],
   "platforms": [
     "local",

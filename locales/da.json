@@ -1,5 +1,16 @@
 {
   "errors": {
     "birdie_pro_connect_failed": "Kan ikke oprette forbindelse til din Birdie Pro. Fløj den væk?"
+  },
+  "mold_risk": {
+    "calculating": "Beregner…",
+    "low": "Lav risiko",
+    "moderate": "Moderat risiko",
+    "high": "Høj risiko",
+    "very_high": "Meget høj risiko",
+    "notification": {
+      "initializing": "Birdie Pro beregner skimmelrisikoen, det tager 14 dage.\n\nSkimmelrisikoen beregnes ud fra temperatur, luftfugtighed og CO₂-niveau. Dette er kun et skøn og ikke en garanti; kontakt en fagperson, hvis du mistænker skimmel 🍄",
+      "initialized": "Birdie Pro har beregnet skimmelrisikoen, du kan nu se den på enheden 🍄"
+    }
   }
 }

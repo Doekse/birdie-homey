@@ -1,5 +1,16 @@
 {
   "errors": {
     "birdie_pro_connect_failed": "Can't connect to your Birdie Pro. Did it fly away?"
+  },
+  "mold_risk": {
+    "calculating": "Calculating…",
+    "low": "Low risk",
+    "moderate": "Moderate risk",
+    "high": "High risk",
+    "very_high": "Very High risk",
+    "notification": {
+      "initializing": "Birdie Pro is calculating the Mold Risk, this takes 14 days.\n\nMold Risk is calculated based on temperature, humidity and CO₂ level. This is only an estimate and not a guarantee, please consult a professional if you suspect mold 🍄",
+      "initialized": "Birdie Pro has calculated the Mold Risk, you can now check it out on the device 🍄"
+    }
   }
 }

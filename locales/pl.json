@@ -1,5 +1,16 @@
 {
   "errors": {
     "birdie_pro_connect_failed": "Nie można połączyć się z Twoim Birdie Pro. Czy odleciał?"
+  },
+  "mold_risk": {
+    "calculating": "Obliczanie…",
+    "low": "Niskie ryzyko",
+    "moderate": "Umiarkowane ryzyko",
+    "high": "Wysokie ryzyko",
+    "very_high": "Bardzo wysokie ryzyko",
+    "notification": {
+      "initializing": "Birdie Pro oblicza ryzyko pleśni, zajmuje to 14 dni.\n\nRyzyko pleśni jest obliczane na podstawie temperatury, wilgotności i poziomu CO₂. To tylko szacunek, a nie gwarancja; skonsultuj się ze specjalistą, jeśli podejrzewasz pleśń 🍄",
+      "initialized": "Birdie Pro obliczył ryzyko pleśni, możesz je teraz sprawdzić na urządzeniu 🍄"
+    }
   }
 }

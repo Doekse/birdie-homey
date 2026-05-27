@@ -1,5 +1,16 @@
 {
   "errors": {
     "birdie_pro_connect_failed": "Birdie Pro에 연결할 수 없어요. 날아가 버렸나요?"
+  },
+  "mold_risk": {
+    "calculating": "계산 중…",
+    "low": "낮은 위험",
+    "moderate": "보통 위험",
+    "high": "높은 위험",
+    "very_high": "매우 높은 위험",
+    "notification": {
+      "initializing": "Birdie Pro가 곰팡이 위험도를 계산 중입니다. 14일이 소요됩니다.\n\n곰팡이 위험도는 온도, 습도, CO₂ 수준을 기준으로 계산됩니다. 이는 추정치일 뿐 보장이 아닙니다. 곰팡이가 의심되면 전문가와 상담하세요 🍄",
+      "initialized": "Birdie Pro가 곰팡이 위험도 계산을 완료했습니다. 이제 기기에서 확인할 수 있습니다 🍄"
+    }
   }
 }

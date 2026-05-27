@@ -1,5 +1,8 @@
 {
   "0.0.1": {
     "en": "Initial test release"
+  },
+  "0.1.0": {
+    "en": "Added Mold Risk capabilities"
   }
 }

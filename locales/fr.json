@@ -1,5 +1,16 @@
 {
   "errors": {
     "birdie_pro_connect_failed": "Impossible de se connecter à votre Birdie Pro. S’est-il envolé ?"
+  },
+  "mold_risk": {
+    "calculating": "Calcul en cours…",
+    "low": "Risque faible",
+    "moderate": "Risque modéré",
+    "high": "Risque élevé",
+    "very_high": "Risque très élevé",
+    "notification": {
+      "initializing": "Birdie Pro calcule le risque de moisissure, cela prend 14 jours.\n\nLe risque de moisissure est calculé à partir de la température, de l'humidité et du niveau de CO₂. Il s'agit d'une estimation et non d'une garantie ; consultez un professionnel si vous suspectez des moisissures 🍄",
+      "initialized": "Birdie Pro a calculé le risque de moisissure, vous pouvez maintenant le consulter sur l'appareil 🍄"
+    }
   }
 }

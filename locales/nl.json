@@ -1,5 +1,16 @@
 {
   "errors": {
     "birdie_pro_connect_failed": "Kan geen verbinding maken met je Birdie Pro. Is hij weggevlogen?"
+  },
+  "mold_risk": {
+    "calculating": "Berekenen…",
+    "low": "Laag risico",
+    "moderate": "Matig risico",
+    "high": "Hoog risico",
+    "very_high": "Zeer hoog risico",
+    "notification": {
+      "initializing": "Birdie Pro berekent het schimmelrisico, dit duurt 14 dagen.\n\nHet schimmelrisico wordt berekend op basis van temperatuur, luchtvochtigheid en CO₂-niveau. Dit is slechts een schatting en geen garantie; raadpleeg een professional als je schimmel vermoedt 🍄",
+      "initialized": "Birdie Pro heeft het schimmelrisico berekend, je kunt het nu op het apparaat bekijken 🍄"
+    }
   }
 }

@@ -1,0 +1,40 @@
+{
+  "id": "alarm_mold_risk_false",
+  "title": {
+    "en": "The mold risk alarm turned off",
+    "nl": "Het schimmelrisico alarm ging uit",
+    "de": "Der Schimmelrisiko Alarm wurde ausgeschaltet",
+    "fr": "L'alarme risque de moisissure s'est désactivée",
+    "it": "L'allarme rischio muffa si è disattivato",
+    "sv": "Mögelrisklarmet inaktiverades",
+    "no": "Mugg risiko-alarmen ble slått av",
+    "es": "La alarma de riesgo de moho se desactivó",
+    "da": "Skimmelrisiko-alarmen blev slukket",
+    "ru": "Сигнал риска плесени выключился",
+    "pl": "Alarm ryzyka pleśni został wyłączony",
+    "ko": "곰팡이 위험 알람이 꺼짐",
+    "ar": "تم إيقاف إنذار مخاطر العفن"
+  },
+  "titleFormatted": {
+    "en": "The mold risk alarm turned off",
+    "nl": "Het schimmelrisico alarm ging uit",
+    "de": "Der Schimmelrisiko Alarm wurde ausgeschaltet",
+    "fr": "L'alarme risque de moisissure s'est désactivée",
+    "it": "L'allarme rischio muffa si è disattivato",
+    "sv": "Mögelrisklarmet inaktiverades",
+    "no": "Mugg risiko-alarmen ble slått av",
+    "es": "La alarma de riesgo de moho se desactivó",
+    "da": "Skimmelrisiko-alarmen blev slukket",
+    "ru": "Сигнал риска плесени выключился",
+    "pl": "Alarm ryzyka pleśni został wyłączony",
+    "ko": "곰팡이 위험 알람이 꺼짐",
+    "ar": "تم إيقاف إنذار مخاطر العفن"
+  },
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=birdie-pro&capabilities=alarm_mold_risk"
+    }
+  ]
+}

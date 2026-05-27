@@ -1,5 +1,16 @@
 {
   "errors": {
     "birdie_pro_connect_failed": "Kan ikke koble til din Birdie Pro. Fløy den av gårde?"
+  },
+  "mold_risk": {
+    "calculating": "Beregner…",
+    "low": "Lav risiko",
+    "moderate": "Moderat risiko",
+    "high": "Høy risiko",
+    "very_high": "Svært høy risiko",
+    "notification": {
+      "initializing": "Birdie Pro beregner moldrisikoen, dette tar 14 dager.\n\nMoldrisikoen beregnes basert på temperatur, luftfuktighet og CO₂-nivå. Dette er kun et estimat og ingen garanti; kontakt en fagperson hvis du mistenker mugg 🍄",
+      "initialized": "Birdie Pro har beregnet moldrisikoen, du kan nå se den på enheten 🍄"
+    }
   }
 }

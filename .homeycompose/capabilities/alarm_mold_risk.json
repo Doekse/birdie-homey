@@ -1,0 +1,22 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Mold Risk Alarm",
+    "nl": "Schimmelrisico alarm",
+    "de": "Schimmelrisiko Alarm",
+    "fr": "Alarme risque de moisissure",
+    "it": "Allarme rischio muffa",
+    "sv": "Mögelrisklarm",
+    "no": "Mugg risiko-alarm",
+    "es": "Alarma de riesgo de moho",
+    "da": "Skimmelrisiko-alarm",
+    "ru": "Сигнал риска плесени",
+    "pl": "Alarm ryzyka pleśni",
+    "ko": "곰팡이 위험 알람",
+    "ar": "إنذار مخاطر العفن"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capabilities/alarm_mold_risk.svg"
+}

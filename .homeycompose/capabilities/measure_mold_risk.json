@@ -1,0 +1,22 @@
+{
+  "type": "string",
+  "title": {
+    "en": "Mold Risk",
+    "nl": "Schimmelrisico",
+    "de": "Schimmelrisiko",
+    "fr": "Risque de moisissure",
+    "it": "Rischio di muffa",
+    "sv": "Mögelrisk",
+    "no": "Mugg risiko",
+    "es": "Riesgo de moho",
+    "da": "Skimmelrisiko",
+    "ru": "Риск плесени",
+    "pl": "Ryzyko pleśni",
+    "ko": "곰팡이 위험",
+    "ar": "مخاطر العفن"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capabilities/measure_mold_risk.svg"
+}

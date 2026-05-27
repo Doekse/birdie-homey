@@ -1,0 +1,61 @@
+{
+  "id": "measure_mold_risk_decreased",
+  "title": {
+    "en": "The mold risk decreased",
+    "nl": "Het schimmelrisico is afgenomen",
+    "de": "Das Schimmelrisiko ist gesunken",
+    "fr": "Le risque de moisissure a diminué",
+    "it": "Il rischio di muffa è diminuito",
+    "sv": "Mögelrisken har minskat",
+    "no": "Moldrisikoen har sunket",
+    "es": "El riesgo de moho ha disminuido",
+    "da": "Skimmelrisikoen er faldet",
+    "ru": "Риск плесени снизился",
+    "pl": "Ryzyko pleśni spadło",
+    "ko": "곰팡이 위험이 감소함",
+    "ar": "انخفضت مخاطر العفن"
+  },
+  "titleFormatted": {
+    "en": "The mold risk decreased",
+    "nl": "Het schimmelrisico is afgenomen",
+    "de": "Das Schimmelrisiko ist gesunken",
+    "fr": "Le risque de moisissure a diminué",
+    "it": "Il rischio di muffa è diminuito",
+    "sv": "Mögelrisken har minskat",
+    "no": "Moldrisikoen har sunket",
+    "es": "El riesgo de moho ha disminuido",
+    "da": "Skimmelrisikoen er faldet",
+    "ru": "Риск плесени снизился",
+    "pl": "Ryzyko pleśni spadło",
+    "ko": "곰팡이 위험이 감소함",
+    "ar": "انخفضت مخاطر العفن"
+  },
+  "tokens": [
+    {
+      "name": "measure_mold_risk",
+      "type": "string",
+      "title": {
+        "en": "Current risk level",
+        "nl": "Huidig risiconiveau",
+        "de": "Aktuelles Risikoniveau",
+        "fr": "Niveau de risque actuel",
+        "it": "Livello di rischio attuale",
+        "sv": "Aktuell risknivå",
+        "no": "Gjeldende risikonivå",
+        "es": "Nivel de riesgo actual",
+        "da": "Aktuelt risikoniveau",
+        "ru": "Текущий уровень риска",
+        "pl": "Aktualny poziom ryzyka",
+        "ko": "현재 위험 수준",
+        "ar": "مستوى الخطر الحالي"
+      }
+    }
+  ],
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=birdie-pro&capabilities=measure_mold_risk"
+    }
+  ]
+}

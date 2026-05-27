@@ -1,5 +1,16 @@
 {
   "errors": {
     "birdie_pro_connect_failed": "Impossibile connettersi al tuo Birdie Pro. È volato via?"
+  },
+  "mold_risk": {
+    "calculating": "Calcolo in corso…",
+    "low": "Rischio basso",
+    "moderate": "Rischio moderato",
+    "high": "Rischio alto",
+    "very_high": "Rischio molto alto",
+    "notification": {
+      "initializing": "Birdie Pro sta calcolando il rischio di muffa, ci vogliono 14 giorni.\n\nIl rischio di muffa viene calcolato in base a temperatura, umidità e livello di CO₂. Questa è solo una stima e non una garanzia; consulta un professionista se sospetti la muffa 🍄",
+      "initialized": "Birdie Pro ha calcolato il rischio di muffa, puoi controllarlo ora sul dispositivo 🍄"
+    }
   }
 }

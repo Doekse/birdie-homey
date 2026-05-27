@@ -1,0 +1,55 @@
+"""📝 Summary: Mold Risk Model v1 – Calculation Method
+We have defined a model that calculates a continuous mould risk (""Mold Risk Score"") based on measurements from temperature, humidity, and CO₂ sensors.""",,,,Formulas,,,Score intervals,
+,,,,RiskScore_new = RiskScore_prev + (BaseRisk - 4),,,RH (%),Score
+🔢 1. BaseRisk (0–7),,,,BaseRisk = RH + T + CO2,,,<39,0
+"At each measurement, a BaseRisk is calculated as the sum of three sub-scores:",,,,,,,40-60,1
+,,,,Examples,,,61-70,2
+Parameter,Scoreinterval,Max,,Calculation nr.:,1,,>71,3
+Relativ humidity (RH),0–3,3,,,,,,
+Temperatur (T),0–2,2,,BaseRisk,5,,T (degrees celcius),Score
+CO₂-level,0–2,2,,RiskScore_New,1,,">24,1",2
+Total BaseRisk,,7,,,,,"22,1-24",1
+,,,,Calculation nr.:,2,,18-22,0
+BaseRisk reflects how favorable the current conditions are for mould growth.,,,,,,,16-18,1
+,,,,RiskScore_Prev,1,,16>,2
+,,,,BaseRisk,5,,,
+"⏳ 2. RiskScore (accumulated risk level, 0–100)",,,,RiskScore_New,2,,,
+The overall Mold Risk Score (0–100) is continuously updated every hour using the following equation:,,,,,,,CO2 (PPM),Score
+RiskScore_new = RiskScore_prev + (BaseRisk - 4),,,,Calculation nr.:,3,,<800,0
+,,,,,,,800-1200,1
+,,,,RiskScore_Prev,2,,>1200,2
+🕒 3. Initial measurement period (first 14 days),,,,BaseRisk,5,,,
+"During the first 14 days, the status is shown as “Calculating mold risk…” so the system can stabilize and avoid false alarms. The user is informed that data collection is in progress.",,,,RiskScore_New,3,,,
+,,,,,,,,
+,,,,Calculation nr.:,4,,,
+📊 4. Risk levels,,,,,,,,
+RiskScore,Mushrooms,,,RiskScore_Prev,3,,,
+0-8,1,,,BaseRisk,5,,,
+9-16,2,,,RiskScore_New,4,,,
+17-24,3,,,,,,,
+25-32,4,,,,,,,
+33-40,5,,,,,,,
+41-48,6,,,,,,,
+49-56,7,,,,,,,
+57-64,8,,,,,,,
+65-72,9,,,,,,,
+73-80,10,,,,,,,
+81-88,11,,,,,,,
+89-100,12,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"Modellen er modulær og udvidelsesvenlig, så flere parametre (f.eks. overfladetemperatur, dugpunkt eller varighedsmodificering) kan tilføjes fremadrettet.",,,,,,,,
