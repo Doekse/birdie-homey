@@ -1,6 +1,6 @@
 {
   "id": "design.birdie",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "compatibility": ">=12.4.0",
   "sdk": 3,
   "brandColor": "#EEBE0A",
@@ -28,5 +28,20 @@
     "name": "Birdie Scandinavia ApS.",
     "email": "abe.haverkamp+birdie@homey.app"
   },
-  "support": "mailto:abe.haverkamp+birdie@homey.app"
+  "bugs": {
+    "url": "https://github.com/Doekse/birdie-homey/issues"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Abe Haverkamp (developer)"
+      },
+      {
+        "name": "Bas van der Ploeg (icons)"
+      }
+    ]
+  },    
+  "source": "https://github.com/Doekse/birdie-homey",
+  "support": "mailto:abe.haverkamp+birdie@homey.app",
+  "homeyCommunityTopicId": 155697
 }
