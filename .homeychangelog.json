@@ -4,5 +4,8 @@
   },
   "0.1.0": {
     "en": "Added Mold Risk capabilities"
+  },
+  "0.1.1": {
+    "en": "Fixed Flow card listener registration"
   }
 }
