@@ -10,5 +10,8 @@
   },
   "0.1.2": {
     "en": "Added contributor information, source code and Homey Community Forum topic ID"
+  },
+  "0.3.0": {
+    "en": "Show hardware and software version in device settings, and improved BLE connection handling"
   }
 }
